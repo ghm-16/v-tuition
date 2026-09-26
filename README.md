@@ -8,6 +8,7 @@ A simple, single-page static site (plain HTML/CSS/JS — no build step) for Ms. 
 - `styles.css` — all styling
 - `script.js` — mobile menu toggle + footer year
 - `images/logo.png` — your logo (background removed, cropped tight), used only in the About section
+- `favicon.ico`, `images/favicon-96.png`, `images/apple-touch-icon.png` — browser-tab and home-screen icons made from the logo (the small ones show just the V, without the ring)
 - `images/hero.jpg` — your photo, used in the hero banner
 
 ## Before you publish — placeholder content to review
