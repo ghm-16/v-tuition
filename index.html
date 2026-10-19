@@ -138,24 +138,43 @@
   <div class="container">
     <p class="eyebrow center">Kind Words</p>
     <h2 class="section-title center">What Parents &amp; Students Say</h2>
-    <!-- First two testimonials are real (Mrs. Priya, Mr. Michael K.). The rest are PLACEHOLDERS: replace names/quotes with real ones from Ms. Vila's students -->
-    <div class="testimonials-grid">
-      <blockquote class="testimonial-card">
-        <p>&ldquo;Before starting with Ms. Vila, Aasrita had very little confidence in Maths and feared her exams. Now her marks have improved, and she&rsquo;s much more confident in solving questions and understanding the concepts. Thank you for your patience and effort!&rdquo;</p>
-        <cite>&mdash; Mrs. Priya, parent of P5 student</cite>
-      </blockquote>
-      <blockquote class="testimonial-card">
-        <p>&ldquo;Ms. Vila doesn&rsquo;t just drill answers &mdash; she made sure our son truly understood the Science concepts. That confidence carried him through prelims and PSLE. Thank you, Ms. Vila!&rdquo;</p>
-        <cite>&mdash; Mr. Michael K., parent of P6 student</cite>
-      </blockquote>
-      <blockquote class="testimonial-card">
-        <p>&ldquo;20 years of experience really shows. Ms. Vila knew exactly which topics to focus on for PSLE Science and it paid off.&rdquo;</p>
-        <cite>&mdash; Mrs. Tan, parent of P6 student</cite>
-      </blockquote>
-      <blockquote class="testimonial-card">
-        <p>&ldquo;Online lessons worked perfectly for our schedule, and my daughter still felt just as supported as in-person. Highly recommend.&rdquo;</p>
-        <cite>&mdash; Mrs. Ong, parent of P4 student</cite>
-      </blockquote>
+    <!-- All testimonials are real. To add one, copy a <blockquote class="testimonial-card"> block; the carousel and counter pick it up automatically. -->
+    <div class="carousel" aria-roledescription="carousel" aria-label="Testimonials">
+      <div class="carousel-track" id="testimonialTrack" tabindex="0">
+        <blockquote class="testimonial-card">
+          <p>&ldquo;Before starting tuition with Ms. Vila, Aasrita had very little confidence in Maths and was quite fearful of her Maths exams and practice papers. I&rsquo;ve seen a lot of improvement since. I&rsquo;m very happy to see that Aasrita has made really good progress in Maths, and her marks have improved as well. She has become much more confident in solving questions and understanding the concepts. Thank you so much for your patience and all the effort you&rsquo;ve put into teaching her. We really appreciate your support and guidance!&rdquo;</p>
+          <cite>&mdash; Mrs. Priya, parent of P5 student</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>&ldquo;Ms. Vila doesn&rsquo;t just drill answers &mdash; she made sure our son actually understood all the Science concepts. That confidence carried him through prelims and PSLE. I expect him to outperform for his exams. Thanks Ms. Vila!&rdquo;</p>
+          <cite>&mdash; Mr. Michael K., parent of P6 student</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>&ldquo;As a parent, I truly appreciate her professionalism and personalised approach. Even before the first lesson, she took the initiative to understand my child&rsquo;s learning background and recommended suitable resources to help her prepare. After each lesson, she provides timely and constructive feedback, sharing her observations and areas for improvement, which allows us to work together to support my child&rsquo;s progress. She is also highly organised and systematic in her approach, maintaining a logbook to track topics covered and work assigned. Her close monitoring, clear communication and genuine commitment give us confidence that our child is receiving thoughtful and purposeful guidance.&rdquo;</p>
+          <cite>&mdash; Mdm Jacqueline, parent of P6 student</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>&ldquo;Ms. Vila is attentive and patient with my daughter. She regularly provides feedback on her progress and keeps us updated on the areas she is improving in and where she may need more support. We appreciate her guidance and commitment to helping my daughter progress.&rdquo;</p>
+          <cite>&mdash; Mdm Aisha, parent of P5 student</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>&ldquo;When my daughter Esha was struggling with Math and losing interest in November 2025, she was initially anxious about getting a new tutor. But from day one, Ms. Vila became her trusted friend and mentor. I initially engaged Ms. Vila for PSLE Math prep in December 2025, hoping Esha would find a tutor she could truly &ldquo;vibe&rdquo; with. The bond they formed was incredible. Seeing their connection, I later asked Ms. Vila to support Esha in Science too, helping her master advanced exam techniques. The Prelim results blew us all away and gave Esha a massive confidence boost! Ms. Vila consistently goes the extra mile, and her 20 years of experience truly shine through in her amazing approach to students. We couldn&rsquo;t be more grateful!&rdquo;</p>
+          <cite>&mdash; Mdm Suja, parent of P6 student</cite>
+        </blockquote>
+        <blockquote class="testimonial-card">
+          <p>&ldquo;A teacher is the key person who bridges knowledge and learning for a student. I can confidently say that I made the right choice introducing Teacher Vila to my daughter. Before her first lesson, she was upset about going for yet another tuition class. But right after the lesson, she started seeing it as a Science Enrichment class that she hates to miss! Thank you, Teacher Vila, for keeping the fire burning in her and nurturing her love for Science.&rdquo;</p>
+          <cite>&mdash; Ms. Zhong Yue, parent of P5 student</cite>
+        </blockquote>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="testimonialPrev" type="button" aria-label="Previous testimonials">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+        </button>
+        <p class="carousel-count" id="testimonialCount" aria-live="polite"></p>
+        <button class="carousel-btn" id="testimonialNext" type="button" aria-label="Next testimonials">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
     </div>
   </div>
 </section>
