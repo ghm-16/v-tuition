@@ -27,9 +27,8 @@ if (yearEl) {
 const track = document.getElementById('testimonialTrack');
 const prevBtn = document.getElementById('testimonialPrev');
 const nextBtn = document.getElementById('testimonialNext');
-const countEl = document.getElementById('testimonialCount');
 
-if (track && prevBtn && nextBtn && countEl) {
+if (track && prevBtn && nextBtn) {
   const cards = Array.from(track.children);
 
   const perView = () => {
@@ -54,7 +53,6 @@ if (track && prevBtn && nextBtn && countEl) {
     // Fit the track to the tallest card in view so short quotes don't leave a gap
     const visible = cards.slice(first, last);
     track.style.height = `${Math.max(...visible.map((card) => card.offsetHeight))}px`;
-    countEl.textContent = n === 1 ? `${first + 1} of ${cards.length}` : `${first + 1}–${last} of ${cards.length}`;
     prevBtn.disabled = first === 0;
     nextBtn.disabled = last >= cards.length;
   };
