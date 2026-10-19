@@ -15,7 +15,7 @@ A simple, single-page static site (plain HTML/CSS/JS — no build step) for Ms. 
 
 This first draft uses placeholder copy so you have something concrete to react to. Search `index.html` for the word `PLACEHOLDER` (in HTML comments) to find every spot, specifically:
 
-1. **Testimonials** (4 of them) — replace with real quotes and names/initials from actual parents, with their permission.
+1. **Testimonials** — all real now, shown in a carousel (two at a time on desktop, one on phones). To add one, copy any `<blockquote class="testimonial-card">` block in `index.html`; the arrows and counter update automatically.
 2. **About section image** — currently your logo, larger and inside a smaller card as requested. You can leave it as-is, or swap in a real photo of Ms. Vila later by replacing the `<img class="portrait-logo" ...>` line inside `<div class="portrait-frame">` with `<img src="images/vila.jpg" alt="Ms. Vila">`.
 3. **WhatsApp number** — currently set to `+65 9628 2109` in three places (nav button, hero button, contact section, and the floating button) as the link `https://wa.me/6596282109`. Double-check this is the number you want published.
 4. **Bio text** in the About section — written generically from what you've shared; feel free to rewrite in Vila's own voice.
